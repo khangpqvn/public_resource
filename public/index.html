@@ -15,12 +15,14 @@
       margin-top: -250px;
       margin-left: -250px;
     }
+
   </style>
 </head>
 
 <body class="bg">
   <div class="wrapper typo" id="wrapper">
     <section id="luckywheel" class="hc-luckywheel">
+      <!-- <h1 class="rainbow-text">Chúc các bạn năm mới vui vẻ và hạnh phúc</h1> -->
       <div class="hc-luckywheel-container">
         <canvas class="hc-luckywheel-canvas" width="500px" height="500px">Lì xì tết</canvas>
       </div>
@@ -35,25 +37,25 @@
     var prizes = [{
         text: "Lì xì 500k",
         img: "images/500k.jpg",
-        percentpage: 0.005 // 0.05%
+        percentpage: 0.000 // 0.05%
       },
       {
         text: "Lì xì 200k",
         img: "images/200k.jpg",
         number: 1, // 1%,
-        percentpage: 0.01 // 1%
+        percentpage: 0.00 // 1%
       },
       {
         text: "Lì Xì 100k",
         img: "images/100k.jpg",
         number: 1,
-        percentpage: 0.02 // 2%
+        percentpage: 0.002 // 2%
       },
       {
         text: "Lì xì 50k",
         img: "images/50k.png",
         number: 1,
-        percentpage: 0.05 // 5%
+        percentpage: 0.01 // 5%
       },
       {
         text: "Lì xì 20k",
@@ -64,7 +66,7 @@
       {
         text: "Lì xì 10k",
         img: "images/10k.jpg",
-        percentpage: 0.6295 // 60%
+        percentpage: 0.838 // 60%
       }
     ];
     document.addEventListener(
@@ -97,7 +99,7 @@
               )
             } else {
               Swal.fire(
-                'Chúc mừng bạn nhận được',
+                'Chúc mừng bạn nhận',
                 data,
                 'success'
               )
